@@ -140,7 +140,7 @@ langchain-cohere = "^0.1.4"
 langchain-community = "^0.2.6"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
+black = ">=23.3,<25.0"
 pre-commit = "^3.2.2"
 ruff = "^0.1.11"
 pytest = "^7.3.1"
